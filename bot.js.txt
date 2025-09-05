@@ -17,7 +17,8 @@ bot.loadPlugin(pvp);
 // AuthMe Reloaded login
 bot.once("spawn", () => {
   console.log("✅ Bot spawned, sending login...");
-  bot.chat("/login yourPassword"); // 🔹 replace with AuthMe password
+  bot.chat("/register tralalelo tralalelo"); // 🔹 replace with AuthMe password
+  bot.chat("/login tralalelo"); // 🔹 replace with AuthMe password
 });
 
 // Pathfinder setup
@@ -87,3 +88,4 @@ bot.on("end", () => {
     process.exit(1); // Koyeb will restart the process
   }, 8000);
 });
+
